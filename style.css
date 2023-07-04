@@ -1,0 +1,410 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.flex {
+    display: flex;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+
+.containt-center {
+    text-align: center;
+}
+
+.main {
+    background-color: rgb(222, 222, 222);
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.nav-bar {
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.icons {
+    flex-direction: row;
+}
+
+nav i {
+    padding: 8px 16px;
+}
+
+nav i:hover {
+    background-color: rgb(223, 223, 223);
+    color: black;
+}
+
+.head {
+    padding-top: 48px;
+    height: 100px;
+    background-color: #fff;
+    padding-top: 48;
+    padding-bottom: 48px !important;
+}
+
+header span {
+    background-color: black;
+    color: #fff;
+    font-size: 1.02rem;
+}
+
+.td {
+    padding: 8px;
+}
+
+.first {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(girl.jpg);
+    width: 100%;
+    height: 1006px;
+    background-color: #fff;
+    color: #fff;
+}
+
+.img-containt {
+    position: relative;
+    top: 350px;
+    left: 1%;
+    right: 0;
+    /* border: 1px solid rgb(232, 20, 20); */
+    flex-direction: column;
+    width: 290px;
+    height: 250px;
+    /* align-items: center; */
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.btn {
+    padding: 16px 24px;
+    width: fit-content;
+    margin-left: 6px;
+    background-color: gray;
+}
+
+
+.sec {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 3241.26px;
+    width: 980.388px;
+}
+
+.fc {
+    height: 1170.59px;
+    width: 958.388px;
+    margin: 16px 16px 16px 16px;
+    padding: 12px 24px 12px 24px;
+    text-align: center;
+    /* border: 2px solid green; */
+    /* letter-spacing: 2px; */
+    background-color: #fff;
+}
+
+.tl {
+    height: 36px;
+    width: 910.388px;
+    margin: 10px 0 10px 0;
+    background-color: #fff;
+    /* font */
+
+    font-family: 'Oswald';
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.des {
+    font-family: 'Oswald';
+    font-size: 18px;
+    line-height: 27px;
+    background-color: #fff;
+}
+
+.fc img {
+    height: 631.338px;
+    width: 912.388px;
+    padding: 16px 0 16px 0;
+    text-align: justify;
+    vertical-align: middle;
+    background-color: #fff;
+
+}
+
+.text {
+    height: 100px;
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 22.5px;
+    margin: 15px 0 15px 0;
+    text-align: justify;
+    padding: 16px 20px;
+    /* border: 1PX solid black; */
+}
+
+.text1 {
+    font-family: "Open Sans";
+    height: 45px;
+    font-size: 15px;
+    line-height: 22.5px;
+    margin: 0px 0 15px 0;
+    text-align: justify;
+    padding: 0 20px;
+    /* border: 1PX solid black; */
+}
+
+.btn1 {
+    height: 40.1px;
+    width: 79.3625px;
+    border: 1px solid #CCCCCC;
+    padding: 8px 16px 8px 16px;
+}
+
+.achive {
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.btn2 {
+    width: 90px;
+    height: 38.4px;
+    color: white;
+    background-color: black;
+}
+
+.sp {
+    padding: 0px 8px;
+    background-color: rgb(240, 233, 233);
+    color: black;
+}
+
+.hor1 {
+    height: 0px;
+    width: 910.388px;
+    border-top: 1px solid #EEEEEE;
+    margin: 20px 0 20px 0;
+}
+
+.foot2 {
+    height: 130.15px;
+    width: 910.388px;
+    margin: 0 0 16px 0;
+    padding: 0px 20px;
+}
+
+.foot2 img {
+    height: 60px;
+    width: 60px;
+}
+
+
+
+.foot-containt {
+    margin: 0px 15px;
+    flex-direction: column;
+    /* text-align: center; */
+    /* justify-content: center; */
+    padding: 16px 10px;
+}
+
+.hor2 {
+    height: 0px;
+    width: 990.388px;
+    border-top: 1px solid #EEEEEE;
+    margin: 20px 0 20px 0;
+    margin: 20px;
+}
+
+.fc1 {
+    height: 800px;
+    width: 958.388px;
+    margin: 16px 16px 16px 16px;
+    padding: 12px 24px 12px 24px;
+    text-align: center;
+    /* border: 2px solid rgb(222, 22, 8); */
+    background-color: #fff;
+}
+
+
+.right-main{
+    height: 2319.06px;
+    width: 450.188px;
+    background-color: white;
+    /* border: 1px solid blue; */
+    /* position: relative;
+    right: 50px; */
+    margin-left: 150px;
+    padding: 36px;
+
+
+
+}
+.eyes{
+    object-fit: cover;
+    width: 100%;
+    height: 247.34px;
+
+}
+
+.bg{
+    background-color: black;
+    color: white;
+}
+
+
+.p1{
+    margin: 8px;
+}
+
+.list{
+
+    padding: 16px;
+}
+
+.p2{
+    padding-left: auto;
+    padding-right: auto;
+    margin-top: auto;
+
+}
+
+.el{
+    background-color: black;
+    color: white;
+}
+
+.list img{
+    height: 60px;
+    width: 60px;
+    box-sizing: border-box;
+}
+/* 
+.pp{
+    padding: 4px;
+} */
+
+.br-point{
+    margin: 20px 0px;
+}
+
+.pp1 h4{
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+
+/* .pp1 h4{
+    border: 2px solid yellow;
+} */
+
+
+.your{
+    height: 300px;
+    margin: 16px;
+    width: 450px;
+}
+
+.add{
+    
+    border: 1px solid black;
+    width: 390px;
+    height: 200px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tags{
+    font-size: 30px;
+    background: black;
+    color: white;
+}
+.tags h4{
+    padding: 16px;
+}
+
+.tag{
+    flex-wrap: wrap;
+    padding: 16px;
+    background-color: rgb(254, 254, 254);
+    
+    
+}
+
+.tag a{
+    margin: 4px;
+    padding: 4px;
+    border: 1px solid;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: rgb(219, 217, 217);
+    color:black ;
+}
+.Inspiration{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.card{
+    height: 170px;
+    width: 200px;
+    padding: 16px;
+}
+
+.padding-16px{
+    padding: 16px;
+    margin: 4px;
+}
+
+
+.scb{
+    background-color: black;
+    color: white;
+}
+
+.sbc-containt{
+    flex-direction: column;
+    gap: 10px;
+}
+.padding-16px-btn{
+    padding: 16px;
+    margin: 4px;
+    box-sizing: border-box;
+       
+}
+
+.btn{
+    background-color:red;
+    color: white;
+    margin: 4px;
+    width: 410px;
+}
+.btn3{
+    background-color:navy;
+    color: white;
+}
+.ic{
+    padding: 10px;
+}
+.btn1{
+    background-color:gray;
+    color: white;
+    margin: 4px;
+    width: 100px;
+}
